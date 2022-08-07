@@ -8,6 +8,6 @@ fn main() {
    let mut file = fs::File::open(&file_name).unwrap();
    let mut file_buf = Vec::new();
    file.read_to_end(&mut file_buf).unwrap();
-
+    // teste para ver o binário do jogo
    println!("{:?}", file_buf);
 }
